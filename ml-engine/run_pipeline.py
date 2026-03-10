@@ -1,3 +1,4 @@
+from reportgenerator import generate_report
 print("FILE STARTED")
 
 from clean_data import clean_data
@@ -20,3 +21,4 @@ def run_pipeline():
 
 if __name__ == "__main__":
     run_pipeline()
+    generate_report()
