@@ -1,0 +1,33 @@
+{
+    "problem_type": "regression",
+    "model": "RandomForestRegressor",
+    "comparison_score": 0.718143516844052,
+    "details": {
+        "rmse": 277.3030031587993,
+        "r2_score": 0.718143516844052
+    },
+    "features": [
+        "Category",
+        "City",
+        "Country",
+        "Customer.Name",
+        "Discount",
+        "Market",
+        "\u8bb0\u5f55\u6570",
+        "Order.Priority",
+        "Product.Name",
+        "Profit",
+        "Quantity",
+        "Region",
+        "Segment",
+        "Ship.Date",
+        "Ship.Mode",
+        "Shipping.Cost",
+        "State",
+        "Sub.Category",
+        "Year",
+        "Market2",
+        "weeknum"
+    ],
+    "target": "Sales"
+}
